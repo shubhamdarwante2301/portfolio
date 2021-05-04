@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Shubham Darwante Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html,
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h6 {
+            font-family: 'Roboto', sans-serif;
+            font-size: 100%;
+            line-height: 200%;
+        }
+
+        .container {
+            /* margin: 20px;
+            padding: 10px; */
+            display: flex;
+            background-color: #f1f1f1 !important;
+            justify-content: center;
+            /* border: 1px solid black; */
+            width: 100%;
+            height: auto;
+            flex-wrap: wrap;
+        }
+
+        i {
+            color: rgb(37, 204, 140);
+        }
+
+        progress {
+            background: rgb(37, 204, 140);
+            color: black;
+        }
+
+        span {
+            background-color: rgb(37, 204, 140);
+            color: white;
+        }
+
+        /* img {
+            margin: auto;
+        } */
+
+        .mainbio {
+            display: flex;
+            flex-direction: column;
+            height: auto;
+            width: 30%;
+            margin: 40px 30px 40px 0px;
+            padding: 20px;
+            background-color: white;
+            border: 1px solid lightgray;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+
+        .profile {
+            margin-top: 20px;
+            height: 200px;
+            width: 100%;
+        }
+
+        .edu {
+            display: flex;
+            height: auto;
+            width: 56%;
+            flex-direction: column;
+            margin: 40px 0px 40px 0px;
+            /* border: 1px solid blue; */
+        }
+
+        .education {
+            height: auto;
+            width: 100%;
+            margin: 0px 0px 40px 0px;
+            padding: 20px;
+            background-color: white;
+            border: 1px solid lightgray;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+
+        .certificate {
+            display: flex;
+            flex-direction: row;
+            height: 100%;
+            width: 100%;
+            padding: 20px;
+            background-color: white;
+            border: 1px solid lightgray;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+
+        .pic {
+            height: auto;
+            width: 50%;
+            /* background-color: red; */
+        }
+        img {
+            width: 20vw;
+            margin: 2vw;
+            
+        }
+
+        .webdev {
+            height: auto;
+            width: 50%;
+            padding-top: 4vw;
+            /* background-color: blue; */
+        }
+
+        footer {
+            display: inline-block;
+            height: 20vh;
+            width: 100%;
+            text-align: center;
+            background-color: rgb(37, 204, 140);
+            padding-top: 20px;
+            line-height: 270%;
+        }
+
+        .fa {
+            text-align: center;
+            padding: 0.5%;
+            background-color: white;
+
+        }
+
+        .fa-facebook {
+
+            /*  */
+        }
+
+        /* .bio > img {
+            width: 100%;
+        } */
+        @media only screen and (max-width :850px) {
+            body {
+                font-size: 100%;
+            }
+
+            .container {
+                /* margin: 20px;
+                padding: 10px; */
+                display: flex;
+                background-color: #f1f1f1 !important;
+                /* background-color: red !important; */
+                justify-content: center;
+                /* border: 1px solid black; */
+                width: 100%;
+                height: auto;
+                flex-wrap: wrap;
+            }
+
+            .mainbio {
+                display: flex;
+                height: auto;
+                width: 100%;
+                margin: 20px 20px 20px 20px;
+                padding: 20px;
+                background-color: white;
+                border: 1px solid lightgray;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            }
+
+            .edu {
+                display: flex;
+                height: auto;
+                width: 100%;
+                flex-direction: column;
+                margin: 0px 0px 0px 0px;
+                justify-content: center;
+                /* border: 1px solid blue; */
+            }
+
+            .education {
+                height: auto;
+                width: 77%;
+                margin: 20px 20px 20px 20px;
+                padding: 20px;
+                background-color: white;
+                border: 1px solid lightgray;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            }
+
+            .certificate {
+                display: flex;
+                flex-direction: column;
+                height: auto;
+                width: 77%;
+                padding: 20px;
+                margin: 20px 20px 20px 20px;
+                background-color: white;
+                border: 1px solid lightgray;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            }
+
+            .pic {
+                height: auto;
+                width: 100%;
+                
+            }
+
+            .webdev {
+                height: auto;
+                width: 100%;
+            }
+            img {
+                width: 50vw;
+            }
+
+            footer {
+                height: auto;
+                width: 100%;
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="mainbio">
+            <div class="profile">
+                <img src="myprofile.jpg" alt="my_profile_photo" style="width: 200px; height: 200px; margin: 0vw 0vw 0vw 8vw;">
+                <br>
+            </div>
+            <div class="bio">
+                <p>
+                    <i class="material-icons">work</i> Software Developer<br>
+                    <i class="material-icons">home</i> At. Aurangabad<br>
+                    <i class="material-icons">email</i> shubhamdarwante2301@gmail.com<br>
+                    <i class="material-icons">phone</i>7720031947 <br>
+                    <hr>
+                    <i class="material-icons">star</i><b>Skills</b> <br>
+                    Programming in C <br>
+                    <progress value="70" max="100">70%</progress> <br>
+                    HTML <br>
+                    <progress value="60" max="100">60%</progress> <br>
+                    CSS <br>
+                    <progress value="60" max="100">60%</progress> <br>
+                    <hr>
+                    <i class="material-icons">public</i><b>Languages</b> <br>
+                    Marathi <br>
+                    <progress value="90" max="100">90%</progress> <br>
+                    English <br>
+                    <progress value="60" max="100">60%</progress> <br>
+                    Hindi <br>
+                    <progress value="70" max="100">70</progress> <br>
+                    <hr>
+                    <i class="material-icons">person</i><b>About Me</b> <br>
+                    <b>Full Name :</b> Shubham Ramchandra Darwante <br>
+                    <b>Date Of Birth :</b> 23/01/1999 <br>
+                    <b>Gender :</b> Male <br>
+                    <b>Nationality :</b> Indian <br>
+                    <b>Marital-Status :</b> Unmarried <br>
+
+
+
+                </p>
+            </div>
+        </div>
+        <div class="edu">
+            <div class="education">
+                <p>
+                <h1><i class="material-icons">school</i> Education</h1> <br>
+                <b>People's Education Society College Of Engineering, Aurangabd</b> <br>
+                <i class="material-icons">date_range</i>2019-2022 <span> Current </span> <br>
+                Computer Science & Engineering (B-Tech) <br>
+                Currently Pursuing <br>
+                <hr>
+                <b>Government Polytechnic College, Ambad</b> <br>
+                <i class="material-icons">date_range</i> 2014-2019 <br>
+                Diploma in Computer Science & Engineering, <br>
+                Pass out with 62% <br>
+                <hr>
+                <b>Karuna Niketan High School Vaijapur</b> <br>
+                <i class="material-icons">date_range</i> 2014 <br>
+                Maharashtra State Board of Secondary and Higher Secondary Education, Pune, Maharashtra. <br>
+                10th Pass Out With 79.20% <br>
+                </p>
+            </div>
+            <div class="certificate">
+                <div class="pic">
+                    <h1><i class="material-icons">card_membership</i> Certificate</h1><br>
+                    1] Mastering C++ Programming from Zero To Hero <br>
+                    Udemy-by Himayatullah Sharief, Instructor <br>
+                    <a target="_blank" href="c++.jpg">
+                        <img src="c++.jpg" alt=" Mastering C++ Programming from Zero To Hero certificate">
+                    </a>
+                </div>
+                <div class="webdev">
+                    2] Advanced web developer course: Beginner to Advanced <br>
+                    Udemy-by Fatah Gabrial, Instructor <br>
+                    <a target="_blank" href="webdev.jpg">
+                        <img src="webdev.jpg" alt="Advanced web developer course: Beginner to Advanced certificate">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p style="text-align: center;">Find me on social media</p>
+        <a href="https://www.facebook.com/profile.php?id=100007944497988" target="_blank" class="fa fa-facebook"></a>
+        <a href="https://www.instagram.com/shubham_r_darwante/" target="_blank" class="fa fa-instagram"></a>
+        <a href="https://www.linkedin.com/in/shubham-darwante-535211202" target="_blank" class="fa fa-linkedin"></a>
+        <a href="https://github.com/shubhamdarwante2301" target="_blank" class="fa fa-github"></a>
+        <p>&copy;Copyright 2021 shubham darwante. All rights reserved. Developed by shubham.</p>
+    </footer>
+</body>
+
+</html>
